@@ -19,15 +19,6 @@ const index = () => {
   return (
     <div className={styles.landing_wrapper} suppressHydrationWarning id="Home">
       <div className={styles.landing_content}>
-        {/* disappears after the animation */}
-        {/* <div className={`${styles.hello}`}>
-          <LineMask
-            fontWeight={'zilla-slab-semibold'}
-            phrase={'hello'}
-            hello={true}
-          />
-        </div> */}
-
         {/* actual content */}
 
         <img

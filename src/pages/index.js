@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
 import Preloader from '../components/Preloader-F';
-import PreloaderG from '../components/Preloader-G';
 import Landing from '../components/Landing';
 import About from '../components/About';
 import ZoomParallax from '../components/ZoomParallax';
@@ -54,8 +53,6 @@ export default function Home() {
           {isLoading && <Preloader />}
         </AnimatePresence>
         <Menu />
-
-        {/* <PreloaderG /> */}
 
         <Landing />
         <About />
