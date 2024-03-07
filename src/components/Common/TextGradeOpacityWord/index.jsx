@@ -28,11 +28,11 @@ export default function Home({ values, offset1 = 0.9, offset2 = 0.25 }) {
             </Word>
           );
         }
-        return <br style={{ display: 'block', marginTop: '5rem' }} />;
+        // return <br style={{ display: 'block', marginTop: '5rem' }} />;
       })}
     </p>
   );
-};
+}
 
 const Word = ({ children, range, progress, style }) => {
   const opacity = useTransform(progress, range, [0, 1]);
