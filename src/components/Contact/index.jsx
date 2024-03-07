@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './style.module.scss';
-import Rounded from '../Common/RoundedButton';
 import FramerLineMask from '../Common/LineMask-F';
 import { FaLinkedin, FaGithub, FaRegEnvelope } from 'react-icons/fa';
 
@@ -38,14 +37,6 @@ const index = () => {
               },
             ]}
           />
-          {/* <Rounded className={style.button} backgroundColor={'#282c34'}>
-            <p
-              className="zilla-slab-semibold"
-              style={{ fontSize: '2rem', fontWeight: '600' }}
-            >
-              joshmanuel2016@gmail.com
-            </p>
-          </Rounded> */}
           <div className={style.contact_icons}>
             <div className={style.icon}>
               <FaRegEnvelope />

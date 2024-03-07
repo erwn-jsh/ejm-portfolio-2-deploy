@@ -38,7 +38,7 @@ const index = () => {
   };
 
   return (
-    <div className={`${style.projects}`} id='Projects'>
+    <div className={`${style.projects}`} id="Projects" suppressHydrationWarning>
       <div className={style.projects_header}>
         <h3 className={`${style.landing_heading} zilla-slab-semibold`}>
           {/* <FramerLineMask
