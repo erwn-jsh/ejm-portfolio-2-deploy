@@ -1,0 +1,167 @@
+/* USING ANSI SHADOW  */
+
+/* 
+██╗   ██╗ █████╗ ██████╗ ██╗ █████╗ ██████╗ ██╗     ███████╗███████╗
+██║   ██║██╔══██╗██╔══██╗██║██╔══██╗██╔══██╗██║     ██╔════╝██╔════╝
+██║   ██║███████║██████╔╝██║███████║██████╔╝██║     █████╗  ███████╗
+╚██╗ ██╔╝██╔══██║██╔══██╗██║██╔══██║██╔══██╗██║     ██╔══╝  ╚════██║
+ ╚████╔╝ ██║  ██║██║  ██║██║██║  ██║██████╔╝███████╗███████╗███████║
+  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚══════╝
+  
+  Search Friendly: Variables, vars
+*/
+
+:root {
+  --color-primary: #282c34;
+  --color-secondary: #342832;
+}
+
+/* 
+ ██████╗███████╗███████╗    ██████╗ ███████╗███████╗███████╗████████╗
+██╔════╝██╔════╝██╔════╝    ██╔══██╗██╔════╝██╔════╝██╔════╝╚══██╔══╝
+██║     ███████╗███████╗    ██████╔╝█████╗  ███████╗█████╗     ██║   
+██║     ╚════██║╚════██║    ██╔══██╗██╔══╝  ╚════██║██╔══╝     ██║   
+╚██████╗███████║███████║    ██║  ██║███████╗███████║███████╗   ██║   
+ ╚═════╝╚══════╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝    
+ 
+ Search Friendly: CSS Reset
+ */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: calc(100vw / 1512 * 10);
+  font-family: var(--font-zilla-slab);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  font-size: clamp(12px, 1.4rem, 16px);
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 450;
+  font-variation-settings: 'wght' 450;
+}
+
+h1 {
+  font-size: 16rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 8rem;
+  letter-spacing: -0.02em;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 
+███████╗ ██████╗ ███╗   ██╗████████╗███████╗
+██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔════╝
+█████╗  ██║   ██║██╔██╗ ██║   ██║   ███████╗
+██╔══╝  ██║   ██║██║╚██╗██║   ██║   ╚════██║
+██║     ╚██████╔╝██║ ╚████║   ██║   ███████║
+╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════                                                                                      
+
+Search Friendly: Fonts
+*/
+
+.zilla-slab-regular {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zilla-slab-semibold {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.zilla-slab-bold {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-light-bg-green {
+  color: #50a14f;
+}
+
+.text-light-bg-red {
+  color: #aa3731;
+}
+
+.text-light-bg-purple {
+  color: #a23e9d;
+}
+
+.text-light-bg-blue {
+  color: #4b69cc;
+}
+
+.text-light-bg-orange {
+  color: #9c5d27;
+}
+
+.text-dark-bg-green {
+  color: #6dba79;
+}
+
+.text-dark-bg-red {
+  color: #e06253;
+}
+
+.text-dark-bg-purple {
+  color: #c678d8;
+}
+
+.text-dark-bg-blue {
+  color: #409def;
+}
+
+.text-dark-bg-orange {
+  color: #f9ad7b;
+}

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 32rem 16rem 32rem ;
+  color: white;
+  background-color: var(--color-primary);
+  // border-radius: 48px;
+
+  .about {
+    width: 40%;
+    font-size: 3.6rem;
+    font-variant: small-caps;
+  }
+
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    .text {
+      margin-bottom: 10rem;
+      font-size: 5rem;
+    }
+
+    .git_container {
+      margin-top: 10rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        margin: 0;
+        font-size: 5rem;
+      }
+
+      img {
+        border-radius: 100px;
+        width: 250px;
+        height: 140px;
+      }
+    }
+  }
+}

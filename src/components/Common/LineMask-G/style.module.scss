@@ -1,0 +1,10 @@
+.lineMask {
+  span {
+    display: block;
+    overflow: hidden;
+  }
+
+  span span {
+    transform: translateY(100%);
+  }
+}

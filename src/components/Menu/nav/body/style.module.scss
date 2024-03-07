@@ -1,0 +1,27 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  width: 100vw;
+
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 32px;
+    padding-left: 10px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .body {
+    margin-top: 80px;
+
+    p {
+      font-size: 5vw;
+      padding-right: 2vw;
+    }
+  }
+}
