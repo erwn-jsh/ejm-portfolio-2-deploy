@@ -3,7 +3,7 @@ import style from './style.module.scss';
 import FramerLineMask from '../Common/LineMask-F';
 import { FaLinkedin, FaGithub, FaRegEnvelope } from 'react-icons/fa';
 
-const index = () => {
+export default function Home() {
   return (
     <div className={style.container} id="Contact">
       <div className={style.wrapper}>
@@ -52,6 +52,4 @@ const index = () => {
       </div>
     </div>
   );
-};
-
-export default index;
+}

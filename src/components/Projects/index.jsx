@@ -8,7 +8,7 @@ import ProjImg1a from '../../../public/assets/Projects/1a.png';
 import ProjImg1b from '../../../public/assets/Projects/1b.png';
 import ProjImg1c from '../../../public/assets/Projects/1c.png';
 
-const index = () => {
+export default function Home(){
   const videoEl1 = useRef(null);
   const videoEl2 = useRef(null);
   const videoEl3 = useRef(null);
@@ -262,5 +262,3 @@ const index = () => {
     </div>
   );
 };
-
-export default index;

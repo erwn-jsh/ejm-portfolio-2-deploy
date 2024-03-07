@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import Nav from './nav';
 import { usePathname } from 'next/navigation';
 
-const index = () => {
+export default function Home() {
   const [isActive, setIsActive] = useState(false);
   const pathname = usePathname();
   useEffect(() => {
@@ -34,6 +34,4 @@ const index = () => {
       </div>
     </>
   );
-};
-
-export default index;
+}

@@ -15,7 +15,7 @@ const clickHandle = () => {
   document.location.href = 'joshmanuel2016@gmail.com';
 };
 
-const index = () => {
+export default function Home() {
   return (
     <div className={styles.landing_wrapper} suppressHydrationWarning id="Home">
       <div className={styles.landing_content}>
@@ -75,6 +75,4 @@ const index = () => {
       </div>
     </div>
   );
-};
-
-export default index;
+}

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './body';
 
-const index = ({ setIsActive, isActive }) => {
+export default function Home({ setIsActive, isActive }) {
   const links = [
     {
       title: 'Home',
@@ -54,6 +54,4 @@ const index = ({ setIsActive, isActive }) => {
       </div>
     </motion.div>
   );
-};
-
-export default index;
+}

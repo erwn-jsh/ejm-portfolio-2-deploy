@@ -12,7 +12,7 @@ import Pic5 from '../../../public/assets/ZoomParallax/5.jpg';
 import Pic6 from '../../../public/assets/ZoomParallax/6.jpg';
 import Pic7 from '../../../public/assets/Landing/Landing.jpg';
 
-const index = () => {
+export default function Home() {
   const images = [Pic1, Pic2, Pic3, Pic4, Pic5, Pic6, Pic7];
   const [index, setIndex] = useState(0);
   const words = ['Hello', '你好', '안녕', 'やほ', 'Bonjour'];
@@ -61,6 +61,4 @@ const index = () => {
       </motion.p>
     </motion.div>
   );
-};
-
-export default index;
+}

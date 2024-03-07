@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './styles.module.scss';
 
-const Paragraph = ({ values, offset1 = 0.9, offset2 = 0.25 }) => {
+export default function Home({ values, offset1 = 0.9, offset2 = 0.25 }) {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
@@ -33,8 +33,6 @@ const Paragraph = ({ values, offset1 = 0.9, offset2 = 0.25 }) => {
     </p>
   );
 };
-
-export default Paragraph;
 
 const Word = ({ children, range, progress, style }) => {
   const opacity = useTransform(progress, range, [0, 1]);

@@ -4,13 +4,13 @@ import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import { translate, blur } from '../../anim';
 
-const index = ({
+export default function Home({
   links,
   selectedLink,
   setSelectedLink,
   setIsActive,
   isActive,
-}) => {
+}) {
   const getChar = (title) => {
     let chars = [];
     title.split('').forEach((char, index) => {
@@ -65,6 +65,4 @@ const index = ({
       })}
     </div>
   );
-};
-
-export default index;
+}

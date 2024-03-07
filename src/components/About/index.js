@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Word from '../Common/TextGradeOpacityWord';
 
-const index = () => {
+export default function Home() {
   return (
-    <div className={styles.container} id='About'>
+    <div className={styles.container} id="About">
       <h3 className={`${styles.about} zilla-slab-regular`}>About</h3>
       <div className={styles.text_container}>
         <div className={`${styles.text}`}>
@@ -92,6 +92,4 @@ const index = () => {
       </div>
     </div>
   );
-};
-
-export default index;
+}
