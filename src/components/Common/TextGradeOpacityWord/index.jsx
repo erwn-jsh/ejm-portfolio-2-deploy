@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './styles.module.scss';
-import { Zilla_Semibold } from '../../utils/fonts';
+import { Zilla_Semibold } from '../../../utils/fonts';
 
 export default function TextGradeOpacityWord({
   values,
