@@ -53,7 +53,9 @@ export default function Landing() {
                 text: 'I work at the',
                 textStyle: '',
                 text1: 'intersection',
-                text1Style: 'text-light-bg-red zilla-slab-semibold',
+                text1Style: 'text-light-bg-red'.concat(
+                  ` ${Zilla_Semibold.className}`
+                ),
                 text2: 'of',
                 text2Style: '',
                 text3: 'technology,',
