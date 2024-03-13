@@ -1,9 +1,14 @@
 'use client';
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './styles.module.scss';
+import { Zilla_Semibold } from '../../utils/fonts';
 
-export default function TextGradeOpacityWord({ values, offset1 = 0.9, offset2 = 0.25 }) {
+export default function TextGradeOpacityWord({
+  values,
+  offset1 = 0.9,
+  offset2 = 0.25,
+}) {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
@@ -37,7 +42,7 @@ export default function TextGradeOpacityWord({ values, offset1 = 0.9, offset2 = 
 const Word = ({ children, range, progress, style }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className={`${styles.word} zilla-slab-semibold ${style}`}>
+    <span className={`${styles.word} ${Zilla_Semibold.className} ${style}`}>
       <span className={styles.shadow}>{children}</span>
       <motion.span style={{ opacity }}>{children}</motion.span>
     </span>

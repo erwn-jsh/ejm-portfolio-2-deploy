@@ -3,6 +3,7 @@ import style from './style.module.scss';
 import Image from 'next/image';
 import { containerSlideUp, opacity } from './anim';
 import { motion } from 'framer-motion';
+import { Zilla_Semibold } from '../../utils/fonts';
 
 import Pic1 from '../../../public/assets/ZoomParallax/1.jpg';
 import Pic2 from '../../../public/assets/ZoomParallax/2.jpg';
@@ -52,7 +53,7 @@ export default function Preloader() {
         );
       })}
       <motion.p
-        className="zilla-slab-semibold"
+        className={`${Zilla_Semibold.className}`}
         variants={opacity}
         initial="initial"
         animate="enter"

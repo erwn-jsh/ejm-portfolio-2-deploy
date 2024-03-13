@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import Word from '../Common/TextGradeOpacityWord';
+import { Zilla_Regular } from '../../utils/fonts';
 
 export default function About() {
   return (
     <div className={styles.container} id="About">
-      <h3 className={`${styles.about} zilla-slab-regular`}>About</h3>
+      <h3 className={`${styles.about} ${Zilla_Regular.className}`}>About</h3>
       <div className={styles.text_container}>
         <div className={`${styles.text}`}>
           <Word

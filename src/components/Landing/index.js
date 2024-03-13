@@ -59,15 +59,21 @@ export default function Landing() {
                 text2: 'of',
                 text2Style: '',
                 text3: 'technology,',
-                text3Style: 'text-light-bg-purple zilla-slab-semibold',
+                text3Style: 'text-light-bg-purple'.concat(
+                  ` ${Zilla_Semibold.className}`
+                ),
               },
               {
                 text: 'business',
-                textStyle: 'text-light-bg-blue zilla-slab-semibold',
+                textStyle: 'text-light-bg-blue'.concat(
+                  ` ${Zilla_Semibold.className}`
+                ),
                 text1: '&',
                 text1Style: '',
                 text2: 'design',
-                text2Style: 'text-light-bg-orange zilla-slab-semibold',
+                text2Style: 'text-light-bg-orange'.concat(
+                  ` ${Zilla_Semibold.className}`
+                ),
               },
             ]}
             delay={6.5}
