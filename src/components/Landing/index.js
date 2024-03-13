@@ -15,7 +15,7 @@ const clickHandle = () => {
   document.location.href = 'joshmanuel2016@gmail.com';
 };
 
-export default function Home() {
+export default function Landing() {
   return (
     <div className={styles.landing_wrapper} suppressHydrationWarning id="Home">
       <div className={styles.landing_content}>

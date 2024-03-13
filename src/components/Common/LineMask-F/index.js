@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 // const phrases = ;
 
-export default function Home({
+export default function LineMask({
   phrases = [
     'It is a long established fact',
     'that a reader will be distracted',

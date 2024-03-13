@@ -3,7 +3,7 @@ import style from './style.module.scss';
 import FramerLineMask from '../Common/LineMask-F';
 import { FaLinkedin, FaGithub, FaRegEnvelope } from 'react-icons/fa';
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={style.container} id="Contact">
       <div className={style.wrapper}>

@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import Nav from './nav';
 import { usePathname } from 'next/navigation';
 
-export default function Home() {
+export default function Menu() {
   const [isActive, setIsActive] = useState(false);
   const pathname = usePathname();
   useEffect(() => {

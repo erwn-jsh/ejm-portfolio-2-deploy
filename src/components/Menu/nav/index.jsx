@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './body';
 
-export default function Home({ setIsActive, isActive }) {
+export default function Nav({ setIsActive, isActive }) {
   const links = [
     {
       title: 'Home',

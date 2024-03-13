@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './styles.module.scss';
 
-export default function Home({ values, offset1 = 0.9, offset2 = 0.25 }) {
+export default function TextGradeOpacityWord({ values, offset1 = 0.9, offset2 = 0.25 }) {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,

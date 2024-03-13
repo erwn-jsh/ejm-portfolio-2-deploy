@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import { translate, blur } from '../../anim';
 
-export default function Home({
+export default function Body({
   links,
   selectedLink,
   setSelectedLink,

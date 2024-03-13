@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Word from '../Common/TextGradeOpacityWord';
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container} id="About">
       <h3 className={`${styles.about} zilla-slab-regular`}>About</h3>
