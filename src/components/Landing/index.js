@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import { Zilla_Slab } from 'next/font/google';
 import FramerLineMask from '../Common/LineMask-F';
 import Logo from '../../../public/assets/Logo/Logo.png';
+import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
 
 const zilla = Zilla_Slab({
   weight: ['400', '600'],
@@ -27,7 +28,7 @@ export default function Landing() {
           alt=""
         />
 
-        <h1 className={`${styles.landing_heading} zilla-slab-semibold`}>
+        <h1 className={`${styles.landing_heading} ${Zilla_Semibold.className}`}>
           <FramerLineMask
             phrases={[
               {
