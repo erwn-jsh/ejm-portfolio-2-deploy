@@ -44,7 +44,9 @@ export default function Landing() {
           />
         </h1>
 
-        <h2 className={`${styles.landing_subheading} zilla-slab-regular`}>
+        <h2
+          className={`${styles.landing_subheading} ${Zilla_Regular.className}`}
+        >
           <FramerLineMask
             phrases={[
               {
@@ -71,7 +73,9 @@ export default function Landing() {
         </h2>
 
         <a onClick={clickHandle} className={styles.button}>
-          <p className="zilla-slab-semibold">joshmanuel2016@gmail.com</p>
+          <p className={`${Zilla_Semibold.className}`}>
+            joshmanuel2016@gmail.com
+          </p>
         </a>
       </div>
     </div>
