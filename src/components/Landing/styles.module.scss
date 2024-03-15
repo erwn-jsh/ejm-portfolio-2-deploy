@@ -78,3 +78,44 @@
     opacity: 0.2;
   }
 }
+
+// ██████╗ ███████╗███████╗██████╗  ██████╗ ███╗   ██╗███████╗██╗██╗   ██╗███████╗
+// ██╔══██╗██╔════╝██╔════╝██╔══██╗██╔═══██╗████╗  ██║██╔════╝██║██║   ██║██╔════╝
+// ██████╔╝█████╗  ███████╗██████╔╝██║   ██║██╔██╗ ██║███████╗██║██║   ██║█████╗
+// ██╔══██╗██╔══╝  ╚════██║██╔═══╝ ██║   ██║██║╚██╗██║╚════██║██║╚██╗ ██╔╝██╔══╝
+// ██║  ██║███████╗███████║██║     ╚██████╔╝██║ ╚████║███████║██║ ╚████╔╝ ███████╗
+// ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═══╝  ╚══════╝
+// Search Friendly: Responsive
+
+// @media only screen and (max-width: 1280px) {
+//   html {
+//     font-size: calc(100vw / 1280 * 10);
+//   }
+// }
+
+/* @media only screen and (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+} */
+
+@media only screen and (max-width: 420px) {
+  .landing_content {
+    padding: 4rem;
+
+    .landing_heading {
+      font-size: 4rem;
+      margin-top: 50%;
+    }
+
+    .landing_subheading {
+      font-size: 2.7rem;
+      margin-top: 8rem;
+      width: 100%;
+    }
+
+    .button {
+      display: none;
+    }
+  }
+}

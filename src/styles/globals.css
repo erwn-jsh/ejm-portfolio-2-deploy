@@ -38,6 +38,30 @@ html {
   font-family: var(--font-zilla-slab);
 }
 
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: calc(100vw / 1280 * 10);
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+} */
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: calc(100vw / 420 * 10);
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: calc(100vw / 300 * 10);
+  }
+}
+
 img,
 picture,
 video,

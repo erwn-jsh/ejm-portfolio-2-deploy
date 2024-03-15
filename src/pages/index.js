@@ -11,13 +11,13 @@ import SlidingImages from '../components/Common/SlidingImages';
 import Contact from '../components/Contact';
 import Menu from '../components/Menu';
 
-
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
 
 export default function Home() {
   useEffect(() => {
-    const lenis = new Lenis();
+    // const lenis = new Lenis();
+    const lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
 
     const raf = (time) => {
       lenis.raf(time);

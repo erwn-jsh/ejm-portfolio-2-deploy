@@ -216,3 +216,116 @@
     }
   }
 }
+
+// ██████╗ ███████╗███████╗██████╗  ██████╗ ███╗   ██╗███████╗██╗██╗   ██╗███████╗
+// ██╔══██╗██╔════╝██╔════╝██╔══██╗██╔═══██╗████╗  ██║██╔════╝██║██║   ██║██╔════╝
+// ██████╔╝█████╗  ███████╗██████╔╝██║   ██║██╔██╗ ██║███████╗██║██║   ██║█████╗
+// ██╔══██╗██╔══╝  ╚════██║██╔═══╝ ██║   ██║██║╚██╗██║╚════██║██║╚██╗ ██╔╝██╔══╝
+// ██║  ██║███████╗███████║██║     ╚██████╔╝██║ ╚████║███████║██║ ╚████╔╝ ███████╗
+// ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═══╝  ╚══════╝
+// Search Friendly: Responsive
+
+@media only screen and (max-width: 1280px) {
+}
+
+/* @media only screen and (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+} */
+
+@media only screen and (max-width: 420px) {
+  .projects_header {
+    padding: 0;
+    padding-top: 8rem;
+
+    h3 {
+      font-size: 3.6rem;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 5rem;
+    }
+  }
+
+  .project {
+    padding-bottom: 15rem;
+
+    .project_header {
+      padding-left: 7rem;
+      padding-right: 7rem;
+
+      .project_title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+      }
+
+      .header_text {
+        margin-top: 4rem;
+        text-align: center;
+
+        h4 {
+          font-size: 3rem;
+          color: white;
+          padding-bottom: 2rem;
+          line-height: 3.55rem;
+          span {
+            padding: 0;
+            background-color: var(--color-primary);
+          }
+        }
+
+        h5 {
+          font-size: 2.1rem;
+          padding-bottom: 3rem;
+        }
+
+        .pill {
+          font-size: 1.6rem;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .project_body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5rem;
+
+    .project_body_text {
+      // margin: 500px;
+      width: 70%;
+      margin: auto;
+    }
+
+    .supporting_image {
+      display: none;
+    }
+
+    .supportingImage {
+      display: none;
+    }
+
+    video {
+      border-radius: 44px;
+      border: solid 1px white;
+      box-shadow: 8px 8px #c0c0c0;
+
+      position: absolute;
+      top: 5%;
+      width: 55%;
+    }
+    video:nth-of-type(1) {
+      display: none;
+      position: absolute;
+      left: -40%;
+    }
+    video:nth-of-type(2) {
+      display: none;
+      position: absolute;
+      left: 80%;
+    }
+  }
+}

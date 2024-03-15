@@ -1,8 +1,10 @@
+'use client';
 import React, { useState, useEffect } from 'react';
 import style from './style.module.scss';
 import Image from 'next/image';
 import { containerSlideUp, opacity } from './anim';
 import { motion } from 'framer-motion';
+import { useWindowDimensions } from '../../hooks/useWindowDimensions';
 import { Zilla_Semibold } from '../../utils/fonts';
 
 import Pic1 from '../../../public/assets/ZoomParallax/1.jpg';
@@ -28,6 +30,8 @@ export default function Preloader() {
     );
   }, [index]);
 
+  // const { height, width } = useWindowDimensions();
+
   return (
     <motion.div
       variants={containerSlideUp}
@@ -41,7 +45,11 @@ export default function Preloader() {
             key={index}
             className={`${style.image_container} image_container`}
             initial={{ translateY: 0 }}
-            animate={{ opacity: 1, translateY: '-200%' }}
+            animate={{
+              opacity: 1,
+              // translateY: height <= 420 ? '-600%' : '-200%',
+              translateY: '-620%',
+            }}
             transition={{
               duration: 1,
               delay: index * 0.5,
