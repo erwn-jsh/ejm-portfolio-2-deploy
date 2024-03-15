@@ -10,7 +10,7 @@ import Wow from '../../../public/assets/ZoomParallax/wow.gif';
 import Pic6 from '../../../public/assets/ZoomParallax/6.jpg';
 import { useScroll, useTransform, motion } from 'framer-motion';
 
-export default function ZoomParallax(){
+export default function ZoomParallax() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -74,4 +74,4 @@ export default function ZoomParallax(){
       </div>
     </div>
   );
-};
+}

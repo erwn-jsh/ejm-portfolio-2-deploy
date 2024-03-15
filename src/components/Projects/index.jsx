@@ -4,10 +4,11 @@ import Image from 'next/image';
 import style from './styles.module.scss';
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
-import FramerLineMask from '../Common/LineMask-F';
 import ProjImg1a from '../../../public/assets/Projects/1a.webp';
 import ProjImg1b from '../../../public/assets/Projects/1b.webp';
 import ProjImg1c from '../../../public/assets/Projects/1c.webp';
+import ProjImg2b from '../../../public/assets/Projects/2b.webp';
+import ProjImg2c from '../../../public/assets/Projects/2c.webp';
 
 export default function Project() {
   const videoEl1 = useRef(null);
@@ -42,28 +43,21 @@ export default function Project() {
     <div className={`${style.projects}`} id="Projects" suppressHydrationWarning>
       <div className={style.projects_header}>
         <h3 className={`${style.landing_heading} ${Zilla_Semibold.className}`}>
-          {/* <FramerLineMask
-          phrases={[
-            {
-              text: 'Projects',
-              textStyle: '',
-            },
-          ]}
-        /> */}
           Projects Showcase
         </h3>
       </div>
-      {/* <div className={style.image_container}>
-        <Image src={ProjImg1a} fill alt="image" />
-        </div> */}
 
       <div className={style.project}>
         <div className={style.project_header}>
           <h4 className={`${style.project_title} ${Zilla_Semibold.className}`}>
             YCIS HK Managebac Extension
           </h4>
-          <div className={style.image_container}>
+          {/* <div className={style.image_container}>
             <img src={`/assets/Projects/1a.webp`} />
+          </div> */}
+
+          <div className={style.imageContainer}>
+            <Image src={ProjImg1a} fill alt="image" />
           </div>
 
           <div className={`${style.header_text} ${Zilla_Regular.className}`}>
@@ -107,7 +101,7 @@ export default function Project() {
             </a>
           </div>
 
-          <div>
+          {/* <div>
             <img
               className={style.supporting_image}
               src={`/assets/Projects/1b.webp`}
@@ -116,6 +110,14 @@ export default function Project() {
               className={style.supporting_image}
               src={`/assets/Projects/1c.webp`}
             />
+          </div> */}
+          <div>
+            <div className={style.supportingImage}>
+              <Image src={ProjImg1b} fill alt="image" />
+            </div>
+            <div className={style.supportingImage}>
+              <Image src={ProjImg1c} fill alt="image" />
+            </div>
           </div>
         </div>
       </div>
@@ -173,7 +175,7 @@ export default function Project() {
             </a>
           </div>
 
-          <div>
+          {/* <div>
             <img
               className={style.supporting_image}
               src={`/assets/Projects/2b.webp`}
@@ -182,6 +184,14 @@ export default function Project() {
               className={style.supporting_image}
               src={`/assets/Projects/2c.webp`}
             />
+          </div> */}
+          <div>
+            <div className={style.supportingImage}>
+              <Image src={ProjImg2b} fill alt="image" />
+            </div>
+            <div className={style.supportingImage}>
+              <Image src={ProjImg2c} fill alt="image" />
+            </div>
           </div>
         </div>
       </div>
