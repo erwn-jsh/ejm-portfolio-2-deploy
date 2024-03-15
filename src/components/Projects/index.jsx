@@ -3,12 +3,13 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import style from './styles.module.scss';
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
+import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
 import FramerLineMask from '../Common/LineMask-F';
 import ProjImg1a from '../../../public/assets/Projects/1a.png';
 import ProjImg1b from '../../../public/assets/Projects/1b.png';
 import ProjImg1c from '../../../public/assets/Projects/1c.png';
 
-export default function Project(){
+export default function Project() {
   const videoEl1 = useRef(null);
   const videoEl2 = useRef(null);
   const videoEl3 = useRef(null);
@@ -40,7 +41,7 @@ export default function Project(){
   return (
     <div className={`${style.projects}`} id="Projects" suppressHydrationWarning>
       <div className={style.projects_header}>
-        <h3 className={`${style.landing_heading} zilla-slab-semibold`}>
+        <h3 className={`${style.landing_heading} ${Zilla_Semibold.className}`}>
           {/* <FramerLineMask
           phrases={[
             {
@@ -58,14 +59,14 @@ export default function Project(){
 
       <div className={style.project}>
         <div className={style.project_header}>
-          <h4 className={`${style.project_title} zilla-slab-semibold`}>
+          <h4 className={`${style.project_title} ${Zilla_Semibold.className}`}>
             YCIS HK Managebac Extension
           </h4>
           <div className={style.image_container}>
             <img src={`/assets/Projects/1a.png`} />
           </div>
 
-          <div className={`${style.header_text} zilla-slab-regular`}>
+          <div className={`${style.header_text} ${Zilla_Regular.className}`}>
             <h4>
               <span> YCIS HK Managebac Extension</span>
             </h4>
@@ -79,9 +80,9 @@ export default function Project(){
           </div>
         </div>
 
-        <div className={`${style.project_body} zilla-slab-regular`}>
+        <div className={`${style.project_body} ${Zilla_Regular.className}`}>
           <div className={style.project_body_text}>
-            <h5 className={` zilla-slab-semibold`}>The Brief</h5>
+            <h5 className={`${Zilla_Semibold.className}`}>The Brief</h5>
             <p>
               YCIS HK is a major international school with over 1200 students
               from around the world. Owing to problems with their current
@@ -94,7 +95,7 @@ export default function Project(){
               <li>generating grade matrices</li>
             </ul>
 
-            <h5 className={` zilla-slab-semibold`}>The Results</h5>
+            <h5 className={` ${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
@@ -102,7 +103,7 @@ export default function Project(){
             </ul>
 
             <a onClick={() => clickHandle(0)} className={style.button}>
-              <p className="zilla-slab-semibold">Visit Site</p>
+              <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
             </a>
           </div>
 
@@ -121,7 +122,7 @@ export default function Project(){
 
       <div className={style.project}>
         <div className={style.project_header}>
-          <h4 className={`${style.project_title} zilla-slab-semibold`}>
+          <h4 className={`${style.project_title} ${Zilla_Semibold.className}`}>
             HKCA Website Modernization
           </h4>
           <div className={style.image_comparison}>
@@ -132,7 +133,7 @@ export default function Project(){
           </div>
           {/* <img src={`/assets/Projects/2a1.png`} /> */}
 
-          <div className={`${style.header_text} zilla-slab-regular`}>
+          <div className={`${style.header_text} ${Zilla_Regular.className}`}>
             <h4>
               <span>HKCA Website Modernization</span>
             </h4>
@@ -145,9 +146,9 @@ export default function Project(){
           </div>
         </div>
 
-        <div className={`${style.project_body} zilla-slab-regular`}>
+        <div className={`${style.project_body} ${Zilla_Regular.className}`}>
           <div className={style.project_body_text}>
-            <h5 className={` zilla-slab-semibold`}>The Brief</h5>
+            <h5 className={`${Zilla_Semibold.className}`}>The Brief</h5>
             <p>
               HKCA is the territory’s leading culinary institution with a
               history of over 25 years. They offer 80+ courses to food
@@ -160,7 +161,7 @@ export default function Project(){
               <li>enhanced look & feel</li>
             </ul>
 
-            <h5 className={` zilla-slab-semibold`}>The Results</h5>
+            <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
@@ -168,7 +169,7 @@ export default function Project(){
             </ul>
 
             <a onClick={() => clickHandle(1)} className={style.button}>
-              <p className="zilla-slab-semibold">Visit Site</p>
+              <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
             </a>
           </div>
 
@@ -187,7 +188,7 @@ export default function Project(){
 
       <div className={style.project}>
         <div className={style.project_header}>
-          <h4 className={`${style.project_title} zilla-slab-semibold`}>
+          <h4 className={`${style.project_title} ${Zilla_Semibold.className}`}>
             Robert Andrew Hiyas Official Site
           </h4>
           <div className={style.image_container}>
@@ -201,7 +202,7 @@ export default function Project(){
             />
           </div>
 
-          <div className={`${style.header_text} zilla-slab-regular`}>
+          <div className={`${style.header_text} ${Zilla_Regular.className}`}>
             <h4>
               <span>Robert Andrew Hiyas Official Site</span>
             </h4>
@@ -214,9 +215,9 @@ export default function Project(){
           </div>
         </div>
 
-        <div className={`${style.project_body} zilla-slab-regular`}>
+        <div className={`${style.project_body} ${Zilla_Regular.className}`}>
           <div className={style.project_body_text}>
-            <h5 className={` zilla-slab-semibold`}>The Brief</h5>
+            <h5 className={` ${Zilla_Semibold.className}`}>The Brief</h5>
             <p>
               Robert Andrew Hiyas is a fashion designer based in Cebu,
               specializing in cutting-edge avant-garde designs. His clients
@@ -228,14 +229,14 @@ export default function Project(){
               <li>express his style & personality</li>
             </ul>
 
-            <h5 className={` zilla-slab-semibold`}>The Results</h5>
+            <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
               <li>generating grade matrices</li>
             </ul>
             <a onClick={() => clickHandle(2)} className={style.button}>
-              <p className="zilla-slab-semibold">Visit Site</p>
+              <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
             </a>
           </div>
 
@@ -261,4 +262,4 @@ export default function Project(){
       </div>
     </div>
   );
-};
+}

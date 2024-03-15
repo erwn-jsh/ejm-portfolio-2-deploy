@@ -1,19 +1,12 @@
 'use client';
 import React from 'react';
 import styles from './styles.module.scss';
-import { Zilla_Slab } from 'next/font/google';
 import FramerLineMask from '../Common/LineMask-F';
 import Logo from '../../../public/assets/Logo/Logo.png';
 import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
 
-const zilla = Zilla_Slab({
-  weight: ['400', '600'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-});
-
 const clickHandle = () => {
-  document.location.href = 'joshmanuel2016@gmail.com';
+  document.location.href = 'mailto:joshmanuel2016@gmail.com';
 };
 
 export default function Landing() {

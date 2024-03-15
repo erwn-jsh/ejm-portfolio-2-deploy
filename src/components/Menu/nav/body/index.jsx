@@ -3,6 +3,7 @@ import { Link as RSLink } from 'react-scroll';
 import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import { translate, blur } from '../../anim';
+import { Zilla_Semibold } from '../../../../utils/fonts';
 
 export default function Body({
   links,
@@ -31,7 +32,7 @@ export default function Body({
   };
 
   return (
-    <div className={`${styles.body} zilla-slab-semibold`}>
+    <div className={`${styles.body} ${Zilla_Semibold.className}`}>
       &#x2022;
       {links.map((link, index) => {
         const { title, href } = link;
