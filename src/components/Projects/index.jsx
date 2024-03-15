@@ -5,9 +5,9 @@ import style from './styles.module.scss';
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
 import FramerLineMask from '../Common/LineMask-F';
-import ProjImg1a from '../../../public/assets/Projects/1a.png';
-import ProjImg1b from '../../../public/assets/Projects/1b.png';
-import ProjImg1c from '../../../public/assets/Projects/1c.png';
+import ProjImg1a from '../../../public/assets/Projects/1a.webp';
+import ProjImg1b from '../../../public/assets/Projects/1b.webp';
+import ProjImg1c from '../../../public/assets/Projects/1c.webp';
 
 export default function Project() {
   const videoEl1 = useRef(null);
@@ -63,7 +63,7 @@ export default function Project() {
             YCIS HK Managebac Extension
           </h4>
           <div className={style.image_container}>
-            <img src={`/assets/Projects/1a.png`} />
+            <img src={`/assets/Projects/1a.webp`} />
           </div>
 
           <div className={`${style.header_text} ${Zilla_Regular.className}`}>
@@ -110,11 +110,11 @@ export default function Project() {
           <div>
             <img
               className={style.supporting_image}
-              src={`/assets/Projects/1b.png`}
+              src={`/assets/Projects/1b.webp`}
             />
             <img
               className={style.supporting_image}
-              src={`/assets/Projects/1c.png`}
+              src={`/assets/Projects/1c.webp`}
             />
           </div>
         </div>
@@ -127,11 +127,11 @@ export default function Project() {
           </h4>
           <div className={style.image_comparison}>
             <ImgComparisonSlider hover>
-              <img slot="first" src={`/assets/Projects/2a2.png`} />
-              <img slot="second" src={`/assets/Projects/2a1.png`} />
+              <img slot="first" src={`/assets/Projects/2a2.webp`} />
+              <img slot="second" src={`/assets/Projects/2a1.webp`} />
             </ImgComparisonSlider>
           </div>
-          {/* <img src={`/assets/Projects/2a1.png`} /> */}
+          {/* <img src={`/assets/Projects/2a1.webp`} /> */}
 
           <div className={`${style.header_text} ${Zilla_Regular.className}`}>
             <h4>
@@ -176,11 +176,11 @@ export default function Project() {
           <div>
             <img
               className={style.supporting_image}
-              src={`/assets/Projects/2b.png`}
+              src={`/assets/Projects/2b.webp`}
             />
             <img
               className={style.supporting_image}
-              src={`/assets/Projects/2c.png`}
+              src={`/assets/Projects/2c.webp`}
             />
           </div>
         </div>
