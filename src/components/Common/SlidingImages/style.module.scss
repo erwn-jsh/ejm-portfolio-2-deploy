@@ -48,6 +48,18 @@
 
 } */
 
+@media only screen and (max-width: 540px) {
+  .slidingImages {
+    .slider {
+      width: 200vw;
+
+      .project {
+        height: 30vw;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .slidingImages {
     .slider {
