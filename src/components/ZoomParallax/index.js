@@ -2,12 +2,12 @@
 import React, { useRef } from 'react';
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Pic1 from '../../../public/assets/ZoomParallax/1.jpg';
-import Pic2 from '../../../public/assets/ZoomParallax/2.jpg';
-import Pic3 from '../../../public/assets/ZoomParallax/3.jpg';
-import Pic4 from '../../../public/assets/ZoomParallax/4.jpg';
+import Pic1 from '../../../public/assets/ZoomParallax/1.webp';
+import Pic2 from '../../../public/assets/ZoomParallax/2.webp';
+import Pic3 from '../../../public/assets/ZoomParallax/3.webp';
+import Pic4 from '../../../public/assets/ZoomParallax/4.webp';
 import Wow from '../../../public/assets/ZoomParallax/wow.gif';
-import Pic6 from '../../../public/assets/ZoomParallax/6.jpg';
+import Pic6 from '../../../public/assets/ZoomParallax/6.webp';
 import { useScroll, useTransform, motion } from 'framer-motion';
 
 export default function ZoomParallax() {

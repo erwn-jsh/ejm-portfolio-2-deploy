@@ -7,13 +7,13 @@ import { motion } from 'framer-motion';
 import { useWindowDimensions } from '../../hooks/useWindowDimensions';
 import { Zilla_Semibold } from '../../utils/fonts';
 
-import Pic1 from '../../../public/assets/ZoomParallax/1.jpg';
-import Pic2 from '../../../public/assets/ZoomParallax/2.jpg';
-import Pic3 from '../../../public/assets/ZoomParallax/3.jpg';
-import Pic4 from '../../../public/assets/ZoomParallax/4.jpg';
-import Pic5 from '../../../public/assets/ZoomParallax/5.jpg';
-import Pic6 from '../../../public/assets/ZoomParallax/6.jpg';
-import Pic7 from '../../../public/assets/Landing/Landing.jpg';
+import Pic1 from '../../../public/assets/ZoomParallax/1.webp';
+import Pic2 from '../../../public/assets/ZoomParallax/2.webp';
+import Pic3 from '../../../public/assets/ZoomParallax/3.webp';
+import Pic4 from '../../../public/assets/ZoomParallax/4.webp';
+import Pic5 from '../../../public/assets/ZoomParallax/5.webp';
+import Pic6 from '../../../public/assets/ZoomParallax/6.webp';
+import Pic7 from '../../../public/assets/Landing/Landing.webp';
 
 export default function Preloader() {
   const images = [Pic1, Pic2, Pic3, Pic4, Pic5, Pic6, Pic7];

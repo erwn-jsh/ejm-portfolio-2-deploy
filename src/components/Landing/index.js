@@ -2,7 +2,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import FramerLineMask from '../Common/LineMask-F';
-import Logo from '../../../public/assets/Logo/Logo.png';
 import { Zilla_Regular, Zilla_Semibold } from '../../utils/fonts';
 
 const clickHandle = () => {
