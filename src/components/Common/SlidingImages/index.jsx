@@ -6,38 +6,38 @@ import { useRef } from 'react';
 const slider1 = [
   {
     color: '#5C6265',
-    src: '1a.png',
+    src: '1a.webp',
   },
   {
     color: '#EDDD3C',
-    src: '2a1.png',
+    src: '2a1.webp',
   },
   {
     color: '#69688A',
-    src: '3b.png',
+    src: '3b.webp',
   },
   {
     color: '#D2B490',
-    src: '2a2.png',
+    src: '2a2.webp',
   },
 ];
 
 const slider2 = [
   {
     color: '#040706',
-    src: '3d.png',
+    src: '3d.webp',
   },
   {
     color: '#5C6265',
-    src: '1a.png',
+    src: '1a.webp',
   },
   {
     color: '#D2B490',
-    src: '2a2.png',
+    src: '2a2.webp',
   },
   {
     color: '#E0CCC8',
-    src: '3c.png',
+    src: '3c.webp',
   },
 ];
 
