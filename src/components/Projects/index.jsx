@@ -89,7 +89,7 @@ export default function Project() {
               <li>generating grade matrices</li>
             </ul>
 
-            <h5 className={` ${Zilla_Semibold.className}`}>The Results</h5>
+            {/* <h5 className={` ${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
@@ -98,7 +98,7 @@ export default function Project() {
 
             <a onClick={() => clickHandle(0)} className={style.button}>
               <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
-            </a>
+            </a> */}
           </div>
 
           {/* <div>
@@ -159,11 +159,11 @@ export default function Project() {
             </p>
             <ul>
               <li>easier navigation</li>
-              <li>improved enrollment form</li>
+              <li>improved enrollment experience</li>
               <li>enhanced look & feel</li>
             </ul>
 
-            <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
+            {/* <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
@@ -172,7 +172,7 @@ export default function Project() {
 
             <a onClick={() => clickHandle(1)} className={style.button}>
               <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
-            </a>
+            </a> */}
           </div>
 
           {/* <div>
@@ -237,9 +237,10 @@ export default function Project() {
             <ul>
               <li>showcase his work</li>
               <li>express his style & personality</li>
+              <li>raise his SEO rankings</li>
             </ul>
 
-            <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
+            {/* <h5 className={`${Zilla_Semibold.className}`}>The Results</h5>
             <ul>
               <li>recording distribution of awards</li>
               <li>generating grade matrices</li>
@@ -247,7 +248,7 @@ export default function Project() {
             </ul>
             <a onClick={() => clickHandle(2)} className={style.button}>
               <p className={`${Zilla_Semibold.className}`}>Visit Site</p>
-            </a>
+            </a> */}
           </div>
 
           <div>
